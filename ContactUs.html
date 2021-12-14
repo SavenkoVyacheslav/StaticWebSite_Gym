@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--Keywords for Search engines-->
+  <meta name="keywords" content="Gym, Fitness, Training, Membership">
+  <!--Adjusts the size of a page to a screen size-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact us</title>
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="styleGray.css">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!--Font awesome icons for social media-->
+  <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+</head>
+
+<body>
+  <!--Section <div class=""> </div> with class name for applying the styles from CSS file-->
+  <div class="navigationMenu">
+    <ul>
+      <!--Unordered list <ul></ul> with <li></li> elements and <a></a> links to the webpages-->
+      <!--<img src="" title=""> tag for inserting image with title-->
+      <li><img src="Images/VikingLogo.png" title="logo" class="logoImage" alt="logo"></li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="Registration.html">GUEST TRAINING</a></li>
+      <li><a href="Membership.html">MEMBERSHIP</a></li>
+      <li><a href="WeOffer.html">WE OFFER</a></li>
+      <li><a href="Prices.html">PRICES</a></li>
+      <li><a href="Gallery.html">GALLERY</a></li>
+      <li><a href="ContactUs.html">CONTACT US</a></li>
+    </ul>
+  </div>
+  <div class="aboutUs">
+    <img src="Images/VikingLogo.png" title="Vikinglogo" class="logoImageBig" alt="Vikinglogo">
+    <!--<h1> to <h6> tags are used to define HTML headings-->
+    <h2>Our mission</h2>
+    <!--Paragraph-->
+    <p>
+      The gym founder and owner, Vyacheslav Savenko. Goal is to become the most popular gym in a town. In a long term a network of gyms can grow and develop.
+      Objectives behind mentioned goal are: popularize healthy lifestyle and create a fitness community from present and future gym members.
+      Support and services provided by qualified staff will help you to achieve your goals and enjoy friendly atmosphere in our gym.
+      This is the first step in a journey to your wellbeing.
+    </p>
+  </div>
+
+  <div class="maincontainerContacts">
+
+    <div class="contacts">
+      <h2>Contact us</h2>
+      <p>
+        <!--Line break tag-->
+        Vårbäksvagen 45 <br>
+        Kavlinge <br>
+        Sweden <br>
+        Tel number: +45225566099 <br>
+        <!--Link to email-->
+        Email: <a title="vikinggym@mail.com" href="mailto:vikinggym@mail.com">vikinggym@mail.com</a> <br>
+      </p>
+
+    </div>
+
+    <div class="middle">
+      <h2>Download our app</h2>
+      <!--Inline Java Script onclick event - when you click on button-->
+      <button type="button" title="www.apple.com/app-store" class="btn" onmouseover="changeColor(this)" onmouseout="changeColor(this)" onclick=" window.location.href='https://www.apple.com/app-store';"><i class="fab fa-apple"></i>Download</button>
+      <button type="button" title="www.play.google.com/store" class="btn" onmouseover="changeColor(this)" onmouseout="changeColor(this)" onclick=" window.location.href='https://play.google.com/store/apps';"><i class="fab fa-google-play"></i>Download</button>
+      <br>
+      <h2>We are on</h2>
+      <a title="www.facebook.com" href="https://www.facebook.com/"><i class="social-icon fab fa-facebook-f"></i></a>
+      <a title="www.twitter.com" href="https://twitter.com/"><i class="social-icon fab fa-twitter"></i></a>
+      <a title="www.instagram.com" href="https://www.instagram.com/"><i class="social-icon fab fa-instagram"></i></a>
+      <p>© Copyright 2021 Vyacheslav Savenko</p>
+    </div>
+
+    <div class="hours">
+      <h2>Opening Hours</h2>
+      <div class="contacts small1">
+        <p>
+          Monday: <br>
+          Tuesday: <br>
+          Wednesday: <br>
+          Thursday: <br>
+          Friday: <br>
+          Saturday: <br>
+          Sunday: <br>
+        </p>
+      </div>
+
+      <div class="contacts small2">
+        <p>
+          06:00 – 22:00 <br>
+          06:00 – 22:00 <br>
+          06:00 – 22:00 <br>
+          06:00 – 22:00 <br>
+          06:00 – 22:00 <br>
+          08:00 – 18:00 <br>
+          08:00 – 18:00 <br>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <script src="index.js"></script>
+  <!--Link to Java Script file-->
+</body>
+
+</html>

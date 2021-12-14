@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--Keywords for Search engines-->
+  <meta name="keywords" content="Gym, Fitness, Training, Membership">
+  <!--Adjusts the size of a page to a screen size-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Membership Page</title>
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="styleGray.css">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--Section <div class=""> </div> with class name for applying the styles from CSS file-->
+  <div class="navigationMenu">
+    <ul>
+      <!--Unordered list <ul></ul> with <li></li> elements and <a></a> links to the webpages-->
+      <!--<img src="" title=""> tag for inserting image with title-->
+      <li><img src="Images/VikingLogo.png" title="logo" class="logoImage" alt="logo"></li>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="Registration.html">GUEST TRAINING</a></li>
+      <li><a href="Membership.html">MEMBERSHIP</a></li>
+      <li><a href="WeOffer.html">WE OFFER</a></li>
+      <li><a href="Prices.html">PRICES</a></li>
+      <li><a href="Gallery.html">GALLERY</a></li>
+      <li><a href="ContactUs.html">CONTACT US</a></li>
+    </ul>
+  </div>
+  <!--<h1> to <h6> tags are used to define HTML headings-->
+  <h2 class="header">Membership form</h2>
+
+  <div class="registrationForm">
+    <!--Content of the form will be sent to email in Action attribute using method Post-->
+    <form action="mailto:vikinggym@mail.com" method="post" enctype="text/plain">
+      <input type="text" name="firstname" placeholder="First Name" required>
+      <!--<br> - Line break tag-->
+      <br>
+      <!--Field for text-type information-->
+      <input type="text" name="lastname" placeholder="Last Name" required>
+      <br>
+      <!--Field for number-type information-->
+      <input type="tel" name="phone" placeholder="Contact Phone number" required>
+      <br>
+      <input type="text" name="email" placeholder="Contact email" required>
+      <br>
+      <!--Field for text-type information with identified size 10x50; onkeyup- linked to function in index.js-->
+      <textarea placeholder="Additional Information" name="addittionalinformation" rows="10" cols="50" onkeyup="charcountupdate(this.value)"></textarea>
+      <br>
+      <!--Id connects element to index.js -->
+      <!--Inline container span-->
+      <span id=charcount></span>
+      <br>
+      <!--Button element which used to send the information; type=submit and value=send -->
+      <button title="vikinggym@mail.com" type="submit" class="btn" value="send" onmouseover="changeColor(this)" onmouseout="changeColor(this)">Register</button>
+    </form>
+  </div>
+  <script src="index.js"></script>
+  <!--Link to Java Script file-->
+</body>
+
+</html>

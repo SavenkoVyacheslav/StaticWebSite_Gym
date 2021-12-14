@@ -1,0 +1,140 @@
+/*Styles for en element*/
+body {
+  /*Add a #03506F background-color to the element*/
+  background-color: #03506F;
+  /*Removes margins*/
+  margin: 0;
+}
+
+/*Styles for image (class selector)*/
+.logoImage {
+  /*Size of the Logo Image*/
+  width: 60px;
+  height: 60px;
+}
+
+ul {
+  /*Removes all styles from <ul> and <li> elements*/
+  list-style-type: none;
+  margin: 0;
+  /*Removes paddings*/
+  padding: 0;
+  /*The overflow is clipped, and the rest of the content will be invisible*/
+  overflow: hidden;
+  /*Add a #0A043C background-color to each <a> element*/
+  background-color: #0A043C;
+}
+
+li {
+  /*Place elements next to each other from left*/
+  float: left;
+}
+
+/*Styles for descendant elements <a> of <li> element*/
+li a {
+  /*Elements become block elements*/
+  display: block;
+  /*Colour of the text*/
+  color: white;
+  /*Centralise the text*/
+  text-align: center;
+  /*Padding*/
+  padding: 20px 24px;
+  /*Removes link´s default styles*/
+  text-decoration: none;
+  /*Family and style of the text*/
+  font-family: Arial, Helvetica, serif;
+}
+
+li a:hover {
+  background-color: #111;
+  /*Change the link color to (black) on hover*/
+}
+
+.header {
+  /*Font`s properties*/
+  font-size: 2rem;
+  font-family: "Montserrat";
+  color: #040475;
+  text-align: center;
+  /*Margin auto - centralise the content - auto width*/
+  margin: 45px auto 30px auto;
+}
+
+.maincontainerOffer {
+  /*Defines marging from left and right*/
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.maincontainerGallery {
+  margin-top: 5%;
+  margin-left: 9%;
+  /*Defines marging from top*/
+  margin-right: 9%;
+}
+
+.offer {
+  text-align: center;
+  /*Defines the size of a container*/
+  height: 390px;
+  width: 400px;
+  /*Styling of the border of container*/
+  border-color: white;
+  border-width: 2px;
+  border-style: dotted;
+  margin: 15px 50px 5px 50px;
+  /*Places element from the left side*/
+  float: left;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, serif;
+  /*Add bold style to the text*/
+  font-weight: bold;
+  color: #040475;
+  margin: 5px auto;
+}
+
+.offerImage {
+  margin: 10px 10px 5px 10px;
+  height: 235px;
+  width: 370px;
+}
+
+.offer p {
+  /*Styling of a text in the paragraphs*/
+  font-family: Arial, Helvetica, serif;
+  color: #FFFFFF;
+  /*Placement of the text in the container*/
+  margin: 5px 10px;
+  /*Adding space in between the words*/
+  text-align: justify;
+}
+
+/*Styling of the links in container with class selector "offer"*/
+.offer a {
+  color: white;
+}
+
+.offer a:hover {
+  color: gray;
+}
+
+.zoom {
+  padding: 5px;
+  /*Time of transition*/
+  transition: transform .2s;
+  /* Animation */
+  width: 380px;
+  height: 280px;
+  margin: 15px 10px;
+  /*Place elements next to each other from left*/
+  float: left;
+}
+
+.zoom:hover {
+  /*Zooms image on hover*/
+  transform: scale(1.5);
+}

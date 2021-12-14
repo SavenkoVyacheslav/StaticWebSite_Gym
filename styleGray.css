@@ -1,0 +1,217 @@
+/*Styles for en element*/
+body {
+  /*Add a #FFE3DE background-color to the element*/
+  background-color: #FFE3DE;
+  /*Removes margins*/
+  margin: 0;
+}
+
+/*Styles for image (class selector)*/
+.logoImage {
+  /*Size of the Logo Image*/
+  width: 60px;
+  height: 60px;
+}
+
+ul {
+  /*Removes all styles from <ul> and <li> elements*/
+  list-style-type: none;
+  margin: 0;
+  /*Removes paddings*/
+  padding: 0;
+  /*The overflow is clipped, and the rest of the content will be invisible*/
+  overflow: hidden;
+  /*Add a #0A043C background-color to each <a> element*/
+  background-color: #0A043C;
+}
+
+li {
+  /*Place elements next to each other from left*/
+  float: left;
+}
+
+/*Styles for descendant elements <a> of <li> element*/
+li a {
+  /*Elements become block elements*/
+  display: block;
+  /*Colour of the text*/
+  color: white;
+  /*Centralise the text*/
+  text-align: center;
+  /*Padding*/
+  padding: 20px 24px;
+  /*Removes link´s default styles*/
+  text-decoration: none;
+  /*Family and style of the text*/
+  font-family: Arial, Helvetica, serif;
+}
+
+li a:hover {
+  background-color: #111;
+  /*Change the link color to (black) on hover*/
+}
+
+.header {
+  /*Font`s properties*/
+  font-size: 2rem;
+  font-family: "Montserrat";
+  color: #040475;
+  text-align: center;
+  /*Margin auto - centralise the content - auto width*/
+  margin: 45px auto;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, serif;
+  /*Add bold style to the text*/
+  font-weight: bold;
+  color: #040475;
+  margin: 5px auto;
+}
+
+.registrationForm {
+  text-align: center;
+}
+
+input {
+  /*Occupies 30% of div`s width*/
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  /*Styling of input field*/
+  background-color: lightblue;
+  border: 3px solid #555;
+}
+
+textarea {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: lightblue;
+  border: 3px solid #555;
+}
+
+.btn {
+  /*Defines the color inside the button element*/
+  background-color: #29BB89;
+  /*Text colour*/
+  color: white;
+  /*Defines the size of a button*/
+  width: 130px;
+  height: 40px;
+  /*Rounds the edges of the button*/
+  border-radius: 12px;
+  font-family: Arial, Helvetica, serif;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.maincontainerPrices {
+  /*Defines marging from left and right*/
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.offer {
+  text-align: center;
+  /*Defines the size of a container*/
+  height: 650px;
+  width: 400px;
+  margin: 5px 10px 5px 10px;
+  float: left;
+}
+
+.offer p {
+  /*Styling of a text in the paragraphs*/
+  font-family: Arial, Helvetica, serif;
+  color: black;
+  /*Placement of the text in the container*/
+  margin: 5px 10px;
+  text-align: center;
+}
+
+img {
+  /*Size of an Image elements*/
+  height: 230px;
+  width: 330px;
+}
+
+.aboutUs {
+  height: 400px;
+  width: 500px;
+  /*Adding space in between the words*/
+  text-align: justify;
+  font-family: Arial, Helvetica, serif;
+  font-weight: bold;
+  margin: 100px auto;
+}
+
+.logoImageBig {
+  width: 200px;
+  height: 200px;
+  /*Element placed from the right side*/
+  float: right;
+  margin: 30px;
+}
+
+.maincontainerContacts {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.contacts {
+  text-align: left;
+  font-family: Arial, Helvetica, serif;
+  font-weight: bold;
+  height: 190px;
+  width: 300px;
+  float: left;
+  margin: 10px 40px;
+}
+
+.middle {
+  width: 33%;
+  float: left;
+  text-align: center;
+  font-family: Arial, Helvetica, serif;
+  font-weight: bold;
+  height: 390px;
+  margin: 10px 40px;
+}
+
+.social-icon {
+  margin: 10px;
+  color: black;
+}
+
+.social-icon:hover {
+  color: red;
+  /*Change the link color to (red) on hover*/
+}
+
+.small1 {
+  text-align: left;
+  height: 150px;
+  width: 140px;
+  margin: auto;
+  float: left;
+}
+
+.small2 {
+  text-align: left;
+  height: 150px;
+  width: 140px;
+  margin: auto;
+  float: right;
+}
+
+.hours {
+  text-align: left;
+  font-family: Arial, Helvetica, serif;
+  font-weight: bold;
+  height: 190px;
+  width: 300px;
+  float: left;
+  margin: 10px 40px;
+}

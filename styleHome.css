@@ -1,0 +1,102 @@
+/*Styles for en element*/
+body {
+  /*Image for background*/
+  background-image: url("Images/main.jpg");
+  /*Image cover´s all the body*/
+  background-size: cover;
+  /*Image will not be copied*/
+  background-repeat: no-repeat;
+  /*Positioning for Image*/
+  background-position: center;
+  /*Removes margins*/
+  margin: 0;
+}
+
+/*Styles for image (class selector)*/
+.logoImage {
+  /*Size of the Logo Image*/
+  width: 60px;
+  height: 60px;
+}
+
+ul {
+  /*Removes all styles from <ul> and <li> elements*/
+  list-style-type: none;
+  margin: 0;
+  /*Removes paddings*/
+  padding: 0;
+  /*The overflow is clipped, and the rest of the content will be invisible*/
+  overflow: hidden;
+  /*Add a #0A043C background-color to each <a> element*/
+  background-color: #0A043C;
+}
+
+li {
+  /*Place elements next to each other from left*/
+  float: left;
+}
+
+/*Styles for descendant elements <a> of <li> element*/
+li a {
+  /*Elements become block elements*/
+  display: block;
+  /*Colour of the text*/
+  color: white;
+  /*Centralise the text*/
+  text-align: center;
+  /*Padding*/
+  padding: 20px 24px;
+  /*Removes link´s default styles*/
+  text-decoration: none;
+  /*Family and style of the text*/
+  font-family: Arial, Helvetica, serif;
+}
+
+li a:hover {
+  /*Change the link color to (black) on hover*/
+  background-color: #111;
+}
+
+.header {
+  /*Font`s properties*/
+  font-size: 4rem;
+  font-family: "Montserrat";
+  color: #FFC93C;
+  text-align: center;
+}
+
+.slogan {
+  /*Occupies all width of div*/
+  width: auto;
+  /*Font`s properties*/
+  font-size: 30px;
+  font-family: Arial, Helvetica, serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.promotion {
+  /*Occupies 20% of the width of div*/
+  width: 20%;
+  /*Places element from the left side*/
+  float: left;
+  font-size: 30px;
+  font-family: Arial, Helvetica, serif;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 1% 3% 5% 10%;
+}
+
+.btn {
+  /*Defines the color inside the button element*/
+  background-color: #29BB89;
+  /*Text colour*/
+  color: white;
+  /*Defines the size of a button*/
+  width: 130px;
+  height: 40px;
+  /*Rounds the edges of the button*/
+  border-radius: 12px;
+  font-family: Arial, Helvetica, serif;
+  font-weight: bold;
+}
